@@ -1,0 +1,286 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tarea Programa 3
+</name>
+</assembly>
+<members>
+<member name="T:Tarea_Programa_3.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Tarea_Programa_3.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Tarea_Programa_3.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_Curso">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_Curso.CursoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_Curso.CursoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_Curso.CursoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.CursoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tarea_Programa_3.DEPTO_COMPDataset_Curso,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.UpdateInsertedRows(Tarea_Programa_3.DEPTO_COMPDataset_Curso,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.UpdateDeletedRows(Tarea_Programa_3.DEPTO_COMPDataset_Curso,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.UpdateAll(Tarea_Programa_3.DEPTO_COMPDataset_Curso)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataset_CursoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Facultad">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Facultad.FacultadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Facultad.FacultadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Facultad.FacultadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.FacultadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tarea_Programa_3.DEPTO_COMPDataSet_Facultad,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.UpdateInsertedRows(Tarea_Programa_3.DEPTO_COMPDataSet_Facultad,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.UpdateDeletedRows(Tarea_Programa_3.DEPTO_COMPDataSet_Facultad,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.UpdateAll(Tarea_Programa_3.DEPTO_COMPDataSet_Facultad)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_FacultadTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Student">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Student.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Student.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_Student.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tarea_Programa_3.DEPTO_COMPDataSet_Student,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.UpdateInsertedRows(Tarea_Programa_3.DEPTO_COMPDataSet_Student,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.UpdateDeletedRows(Tarea_Programa_3.DEPTO_COMPDataSet_Student,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.UpdateAll(Tarea_Programa_3.DEPTO_COMPDataSet_Student)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso.StudentCursoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso.StudentCursoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso.StudentCursoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.StudentCursoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.UpdateInsertedRows(Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.UpdateDeletedRows(Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.UpdateAll(Tarea_Programa_3.DEPTO_COMPDataSet_StudentCurso)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tarea_Programa_3.DEPTO_COMPDataSet_StudentCursoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
